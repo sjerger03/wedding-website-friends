@@ -214,9 +214,14 @@
   </footer>
 
   <script>
-    document.addEventListener('touchstart', function () {
-      document.querySelectorAll('video').forEach(function (v) { v.play(); });
-    }, { once: true });
+    function playAll() {
+      document.querySelectorAll('video').forEach(function (v) {
+        v.play().catch(function () {});
+      });
+    }
+    playAll();
+    document.addEventListener('scroll', playAll, { once: true });
+    document.addEventListener('touchstart', playAll, { once: true });
   </script>
 </body>
 </html>
