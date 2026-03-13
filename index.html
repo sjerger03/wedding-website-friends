@@ -213,5 +213,10 @@
     Made with <span class="heart">&hearts;</span> by the happy couple
   </footer>
 
+  <script>
+    document.addEventListener('touchstart', function () {
+      document.querySelectorAll('video').forEach(function (v) { v.play(); });
+    }, { once: true });
+  </script>
 </body>
 </html>
