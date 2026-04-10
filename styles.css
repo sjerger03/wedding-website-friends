@@ -715,8 +715,8 @@ img, video {
 
   .hero-full {
     padding: 3rem 1.5rem;
-    min-height: 60vh;
-    min-height: 60svh;
+    min-height: 70vh;
+    min-height: 70svh;
   }
 
   .hero-full .scroll-indicator {
