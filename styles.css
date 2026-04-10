@@ -719,6 +719,10 @@ img, video {
     min-height: 60svh;
   }
 
+  .hero-full .scroll-indicator {
+    display: none;
+  }
+
   .hero-pre {
     font-size: 0.85rem;
   }
