@@ -717,6 +717,14 @@ img, video {
     padding: 3rem 1.5rem;
   }
 
+  .hero-pre {
+    font-size: 0.85rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+
   .photo-break {
     height: 40vh;
   }
@@ -733,9 +741,29 @@ img, video {
     height: 55vh;
   }
 
+  .video-break .video-overlay .band-label {
+    font-size: 0.7rem;
+  }
+
+  .video-break .video-overlay .band-time {
+    font-size: 1rem;
+  }
+
+  .section-label {
+    font-size: 0.75rem;
+  }
+
+  .section-intro {
+    font-size: 1.15rem;
+  }
+
   .detail-header {
     flex-direction: column;
     gap: 0.25rem;
+  }
+
+  .detail-block h3 {
+    font-size: 1.85rem;
   }
 
   .detail-meta {
@@ -743,12 +771,51 @@ img, video {
     gap: 1rem;
   }
 
+  .meta-item {
+    font-size: 1.05rem;
+  }
+
+  .meta-label {
+    font-size: 0.7rem;
+  }
+
+  .detail-block p {
+    font-size: 1.05rem;
+  }
+
+  .accommodation-card h3 {
+    font-size: 1.65rem;
+  }
+
+  .accommodation-card p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .map-link {
+    font-size: 0.8rem;
+    padding: 0.45rem 1rem;
+  }
+
+  .tag {
+    font-size: 0.65rem;
+  }
+
   .rsvp-section {
     padding: 5rem 1.5rem;
   }
 
+  .rsvp-section p {
+    font-size: 1.1rem;
+  }
+
   .btn {
-    padding: 1.1rem 2.5rem;
+    padding: 1.15rem 2.75rem;
+    font-size: 0.8rem;
+  }
+
+  .footer {
+    font-size: 0.95rem;
   }
 }
 
