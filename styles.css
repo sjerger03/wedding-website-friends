@@ -715,6 +715,8 @@ img, video {
 
   .hero-full {
     padding: 3rem 1.5rem;
+    min-height: 60vh;
+    min-height: 60svh;
   }
 
   .hero-pre {
